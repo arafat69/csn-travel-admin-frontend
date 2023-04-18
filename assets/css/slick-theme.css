@@ -1,0 +1,55 @@
+/* Arrows */
+.slick-prev,
+.slick-next {
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 50%;
+  background: #fff !important;
+  border: 1px solid #F3F4F6 !important;
+  filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.1)) !important;
+  z-index: 9;
+}
+
+.slick-prev {
+  transform: translate(0, -50%) rotate(180deg) !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #334155 !important;
+  font-size: 0 !important;
+}
+
+.slick-prev {
+  left: -10px !important;
+}
+
+[dir='rtl'] .slick-prev {
+  right: -10px !important;
+  left: auto;
+}
+
+.slick-prev:before {
+  content: url('~assets/icons/SVG/arrow-right.svg') !important;
+}
+
+[dir='rtl'] .slick-prev:before {
+  content: url('~assets/icons/SVG/arrow-right.svg') !important;
+}
+
+.slick-next {
+  right: -10px !important;
+}
+
+[dir='rtl'] .slick-next {
+  right: auto !important;
+  left: -10px !important;
+}
+
+.slick-next:before {
+  content: url('~assets/icons/SVG/arrow-right.svg') !important;
+}
+
+[dir='rtl'] .slick-next:before {
+  content: url('~assets/icons/SVG/arrow-right.svg') !important;
+}
